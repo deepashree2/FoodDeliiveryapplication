@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+
+
+* {
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Image row container styles */
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  	display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    
+}
+
+/* Image columns container styles */
+.image-columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+ 
+}
+
+
+
+/* Styling for each image box */
+.image-box {
+    text-align: center;
+}
+
+/* Styling for images */
+.image-box img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 15px 15px;
+}
+
+/* Styling for text below images */
+.image-box p {
+    font-size: 14px;
+    color: #333;
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+     cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    background-color:orangered;
+}
+    
+ 

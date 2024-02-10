@@ -1,0 +1,74 @@
+@charset "ISO-8859-1";
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.cart-items {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cart-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.cart-item h3 {
+    margin: 0;
+}
+
+.cart-item p {
+    color: #009688; /* Green color for price */
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+}
+
+input[type="number"] {
+    width: 40px;
+}
+
+.updtae-btn {
+    background-color: #4caf50; /* Green color for update button */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.remove-btn {
+    background-color: #f44336; /* Red color for remove button */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.add-more-items-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #87CEEB; /* Sky blue color for add more items button */
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.proceed-to-checkout-btn {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #4caf50; /* Green color for proceed to checkout button */
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}

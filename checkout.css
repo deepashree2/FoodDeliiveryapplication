@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+body {
+	background-image: url('order2.jpg'); /* Replace with the actual path to your image */
+    background-size: cover; /* Ensures the background image covers the entire body */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Background color for the entire page */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column; /* Center items vertically and align them in a column */
+}
+
+.container {
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0; /* Remove default margin for the heading */
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 80px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+select {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #ff0000; /* Red color for submit button */
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: #cc0000; /* Darker red color on hover */
+}
